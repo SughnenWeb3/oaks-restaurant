@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --cream: #f5f0e8;
+      --dark: #1a1510;
+      --terracotta: #a0522d;
+      --gold: #c9a96e;
+    }
+
+    body {
+      font-family: 'Jost', sans-serif;
+      background-color: var(--cream);
+      color: var(--dark);
+    }
+
+    .font-serif-display {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .font-cormorant {
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--terracotta);
+    }
+
+    .team-card img {
+      transition: transform 0.4s ease;
+    }
+    .team-card:hover img {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <section class="text-center py-20 px-6" style="background-color: var(--dark);">
+    <p class="font-cormorant italic mb-4" style="color: var(--gold); font-size: 0.9rem; letter-spacing: 0.25em;">Our Story</p>
+    <h1 class="font-serif-display text-white text-5xl md:text-6xl font-semibold mb-5">About Us</h1>
+    <p class="font-cormorant italic text-lg" style="color: #b0a898;">Born from fire. Built on heritage.</p>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-14 items-center">
+    <div class="grid grid-cols-2 gap-2">
+      <img
+        src="../public/img/food1pizza.avif ?w=600&q=80"
+        alt="restaurant table setting"
+        class="col-span-2 w-full h-56 object-cover rounded"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=300&q=80"
+        alt="chef at work"
+        class="w-full h-40 object-cover rounded"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=300&q=80"
+        alt="plated dish"
+        class="w-full h-40 object-cover rounded"
+      />
+    </div>
+
+    <div>
+      <p class="section-label mb-3">The Beginning</p>
+      <h2 class="font-serif-display text-4xl font-semibold leading-snug mb-4">
+        A Restaurant Born from <em>Necessity &amp; Love</em>
+      </h2>
+      <div style="width: 40px; height: 2px; background: var(--terracotta); margin-bottom: 1.5rem;"></div>
+      <p class="text-sm leading-relaxed mb-4" style="color: #4a4035;">
+        Ember &amp; Oak was born in 2018 from a simple but powerful idea: that Nigerian cuisine deserved a stage worthy of its complexity. Chef Nnamdi Okonkwo, raised between his grandmother's compound kitchen in Awka and the fine dining restaurants of London, returned home with a mission.
+      </p>
+      <p class="text-sm leading-relaxed mb-8" style="color: #4a4035;">
+        "I was tired of watching our food be treated as an afterthought," he says. "Egusi deserves the same reverence as bouillabaisse. Suya has the same depth as any great barbecue tradition in the world."
+      </p>
+      <a href="#" class="inline-block px-8 py-3 text-white text-xs tracking-widest uppercase" style="background: var(--terracotta);">
+        Reserve a Table
+      </a>
+    </div>
+  </section>
+
+  <section class="py-20 px-6" style="background-color: #f0ebe0;">
+    <div class="max-w-6xl mx-auto">
+      <p class="section-label mb-2">The People</p>
+      <h2 class="font-serif-display text-4xl font-semibold mb-2">Meet Our <em>Team</em></h2>
+
+      <div style="width: 100%; height: 1px; background: #ddd; margin: 1.5rem 0 2.5rem; position: relative;">
+        <span style="width: 6px; height: 6px; background: var(--terracotta); border-radius: 50%; position: absolute; left: 50%; top: -3px; transform: translateX(-50%);"></span>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="team-card bg-white rounded overflow-hidden shadow-sm">
+          <div class="overflow-hidden h-56">
+            <img
+              src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=500&q=80"
+              alt="Chef Nnamdi Okonkwo"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-5">
+            <h3 class="font-serif-display text-xl font-semibold mb-1">Chef Nnamdi Okonkwo</h3>
+            <p class="section-label mb-3">Founder &amp; Head Chef</p>
+            <p class="text-xs leading-relaxed" style="color: #5a5045;">
+              Trained at Le Cordon Bleu London. Worked under Heston Blumenthal before returning to Lagos. James Beard-nominated 2023.
+            </p>
+          </div>
+        </div>
+
+        <div class="team-card bg-white rounded overflow-hidden shadow-sm">
+          <div class="overflow-hidden h-56">
+            <img
+              src="https://images.unsplash.com/photo-1512003867696-6d5ce6835040?w=500&q=80"
+              alt="Chef Amara Eze"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-5">
+            <h3 class="font-serif-display text-xl font-semibold mb-1">Chef Amara Eze</h3>
+            <p class="section-label mb-3">Pastry Chef</p>
+            <p class="text-xs leading-relaxed" style="color: #5a5045;">
+              École Ferrandi Paris graduate. Her Zobo Panna Cotta has been featured in Vogue Africa. French precision meets West African soul.
+            </p>
+          </div>
+        </div>
+
+        <div class="team-card bg-white rounded overflow-hidden shadow-sm">
+          <div class="overflow-hidden h-56">
+            <img
+              src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=500&q=80"
+              alt="Sola Adeyemi"
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-5">
+            <h3 class="font-serif-display text-xl font-semibold mb-1">Sola Adeyemi</h3>
+            <p class="section-label mb-3">Bar Director &amp; Sommelier</p>
+            <p class="text-xs leading-relaxed" style="color: #5a5045;">
+              Nigeria's only WSET Level 4-certified sommelier. Curates African wines and crafts cocktails around indigenous ingredients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <p class="section-label mb-2">What We Stand For</p>
+    <h2 class="font-serif-display text-4xl font-semibold mb-2">Our <em>Values</em></h2>
+
+    <div style="width: 100%; height: 1px; background: #ddd; margin: 1.5rem 0 2.5rem; position: relative;">
+      <span style="width: 6px; height: 6px; background: var(--terracotta); border-radius: 50%; position: absolute; left: 50%; top: -3px; transform: translateX(-50%);"></span>
+    </div>
+
+    <div class="grid md:grid-cols-2 border border-gray-200">
+      <div class="p-10 border-b border-r border-gray-200">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+          <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <h3 class="font-serif-display text-xl font-semibold mb-2">Provenance First</h3>
+        <p class="text-sm leading-relaxed" style="color: #5a5045;">We source from named farms and markets. Our customers know where their food comes from — and so do we.</p>
+      </div>
+
+      <div class="p-10 border-b border-gray-200">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+          <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3 class="font-serif-display text-xl font-semibold mb-2">Fire as Technique</h3>
+        <p class="text-sm leading-relaxed" style="color: #5a5045;">We cook over hardwood. Not gas, not electric. The smoke, the char — these are flavours, not accidents.</p>
+      </div>
+
+      <div class="p-10 border-r border-gray-200">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+          <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <h3 class="font-serif-display text-xl font-semibold mb-2">Heritage Without Nostalgia</h3>
+        <p class="text-sm leading-relaxed" style="color: #5a5045;">We respect the past but refuse to be frozen in it. Nigerian cuisine is alive and evolving. We evolve with it.</p>
+      </div>
+
+      <div class="p-10">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+          <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+          </svg>
+        </div>
+        <h3 class="font-serif-display text-xl font-semibold mb-2">Radical Hospitality</h3>
+        <p class="text-sm leading-relaxed" style="color: #5a5045;">Every guest is family. We don't do cold professionalism. We do warmth, laughter, and service that makes you return.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-16 px-6" style="background-color: var(--dark);">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+      <div>
+        <h3 class="font-serif-display text-white text-2xl mb-3">
+          Ember <span style="color: var(--terracotta);">&amp;</span> Oak
+        </h3>
+        <p class="text-xs leading-relaxed" style="color: #888;">
+          A modern grill house in the heart of Victoria Island, celebrating bold wood-fired Nigerian cuisine since 2018.
+        </p>
+      </div>
+      <div>
+        <p class="section-label mb-4" style="color: #888;">Pages</p>
+        <ul class="space-y-2 text-sm" style="color: #ccc;">
+          <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+          <li><a href="menu.html" class="hover:text-white transition">Menu</a></li>
+          <li><a href="about.html" class="hover:text-white transition">About</a></li>
+          <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="section-label mb-4" style="color: #888;">Contact</p>
+        <p class="text-sm mb-1" style="color: #ccc;">14 Adeola Odeku Street</p>
+        <p class="text-sm mb-3" style="color: #ccc;">Victoria Island, Lagos</p>
+        <p class="text-sm mb-1" style="color: #ccc;">+234 801 234 5678</p>
+        <p class="text-sm" style="color: #ccc;">hello@emberandoak.ng</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
