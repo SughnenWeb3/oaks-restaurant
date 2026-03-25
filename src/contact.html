@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+   <link rel="stylesheet" href="/src/output.css">
+</head>
+
+<body class="bg-[#f5f2ef]">
+
+  <section class="bg-[#2b1408] text-white text-center py-16">
+    <p class="text-xs uppercase text-orange-100">Get in touch</p>
+    <h1 class="text-4xl font-serif mt-2">Contact Us</h1>
+    <p class="text-sm text-orange-100 mt-2 italic ">We'd love to hear from you</p>
+  </section>
+
+  <section class="flex flex-col md:flex-row">
+    <div class="w-1/2  bg-[#ebe7e4] p-10">
+      <h2 class="text-2xl font-serif mb-6">Our Details</h2>
+
+      <div class="mb-6 flex gap-3 pl-3 border-b border-gray-300">
+        <div><img src="/public/img/istockphoto-1434335998-612x612.webp" class="w-10 items-center justify-center text-gray-500" alt=""></div>
+        <div class="flex-col">
+        <p class="text-xs uppercase text-[#c46a2c]">Address</p>
+        <p class="mt-2 text-sm pb-4">
+          14 Adeola Odeku Street <br/>
+          Victoria Island, Lagos
+        </p>
+        </div>
+      </div>
+
+      <div class="mb-6 flex gap-3 border-b border-gray-300">
+        <div><img src="/public/img/istockphoto-1327617572-2048x2048.jpg" class="w-10 h-10" alt=""></div>
+
+        <div class="flex-col">
+        <p class="text-xs uppercase text-[#c46a2c]">Phone</p>
+        <p class="mt-2 text-sm pb-4">
+          +234 801 234 5678 <br/>
+          +234 809 876 5432
+        </p>
+        </div>
+      </div>
+
+      <div class="mb-6 flex gap-3 border-b border-gray-300  ">
+        <div><img src="/public/img/istockphoto-1484799042-1024x1024.jpg " class="w-10 " alt=""></div>
+        <div class="flex-col">
+        <p class="text-xs uppercase text-[#c46a2c]">Email</p>
+        <p class="mt-2 text-sm pb-4">
+          hello@restaurant.ng <br/>
+          reservations@restaurant.ng
+        </p>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-xs uppercase text-[#c46a2c] mb-3">Opening Hours</p>
+
+        <div class="flex justify-between text-sm">
+          <span>Monday - Thursday</span>
+          <span>12pm - 10pm</span>
+        </div>
+
+        <div class="flex justify-between text-sm mt-2">
+          <span>Friday - Saturday</span>
+          <span>11am - 11pm</span>
+        </div>
+
+        <div class="flex justify-between text-sm mt-2">
+          <span>Sunday</span>
+          <span>1pm - 9pm</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:w-1/2 w-full bg-[#fdf1e7] p-10 gap-6 flex-col">
+      <h2 class="text-2xl font-serif mb-6">Reservation</h2>
+
+      <form class="">
+        <div class="flex gap-4 pb-8">
+          <div class="flex-col">
+            <div>
+              <p class="text-[#8b8885] font-extralight">FIRST NAME</p>
+            </div>
+            <input type="text" placeholder="First Name"
+            class="w-[490px] bg-white border  p-3 text-sm outline-none"/>
+          </div>
+          <div>
+            <div class="flex-col">
+              <p class="text-[#8b8885] font-extralight">LAST NAME</p>
+            </div>
+            <input type="text" placeholder="Last Name"
+            class="w-[480px] bg-white border  p-3 text-sm outline-none"/>
+          </div>
+          
+        </div>
+
+        <div class="flex gap-4">
+          <div>
+            <div><p class="text-[#8b8885] font-extralight">DATE</p></div>
+            <input type="date"
+            class="w-1/2 border w-[480px] bg-white p-3 text-sm outline-none"/>
+          </div>
+          <div class="pb-6">
+            <div><p class="text-[#8b8885] font-extralight">TIME</p></div>
+            <select class="w-1/2 bg-white w-[490px]  border p-3.5 text-sm outline-none">
+            <option>7:00 PM</option>
+            <option>8:00 PM</option>
+            <option>9:00 PM</option>
+          </select>
+          </div>
+          
+        </div>
+        <div class="pb-6">
+          <div><p class="text-[#8b8885] font-extralight">EMAIL</p></div>
+          <input type="email" placeholder="Email"
+          class="w-full border  bg-white p-3 text-sm outline-none"/>
+        </div>
+        
+        <div class="pb-6">
+          <div><p class="text-[#8b8885] font-extralight">NUMBER OF GUESTS</p></div>
+          <select class="w-full border bg-white p-3 text-sm outline-none">
+          <option>2 Guests</option>
+          <option>3 Guests</option>
+        </select>
+        </div>
+
+
+        <div class="pb-4">
+          <div><p class="text-[#8b8885] font-extralight">SPECIAL REQUEST</p></div>
+          <textarea placeholder="Dietary requirements, occasion, seating preference..."
+          class="w-full bg-white border p-3 text-sm h-28 outline-none"></textarea>
+
+        </div>
+        
+        <button class="w-full bg-[#c46a2c] text-white py-3 text-sm tracking-widest uppercase">
+          Confirm Reservation
+        </button>
+
+      </form>
+    </div>
+
+  </section>
+
+</body>
+</html>
