@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 
 
@@ -36,8 +37,8 @@
    <div class="ml-10">
     <p class="text-1xl relative text-amber-200   bottom-80  font-sans">EST ,2026 , VICTORIA ISLAND LAGOS</p>
     <br>
-    <p class="text-5xl relative bottom-80  font-mono">Where Fire</p>
-    <p class="text-6xl italic  relative bottom-80 text-amber-200">Meets Flavour</p>
+    <p class="text-5xl relative bottom-80 font-serif-display">Where Fire</p>
+    <p class="text-6xl italic font-cormorant font-bold relative bottom-80 text-amber-200">Meets Flavour</p>
     <br>
 
     <div class="flex flex-row gap-4">
@@ -100,7 +101,7 @@
   <div class="ml-24 mr-24">
     <P class="text-amber-700 font-bold">CHEF'S SIGNATURES</P>
     <br>
-    <h2 class="text-5xl font-mono text-black">From Our <span class="italic">Kitchen</span></h2>
+    <h2 class="text-5xl font-mono text-black">From Our <span class="italic font-cormorant">Kitchen</span></h2>
     <br>
     <span class="text-gray-700 bg-gray-700 ">
       <hr>
@@ -192,12 +193,11 @@
 <!-- OUR PHILOSOPHY -->
 <section class="flex flex-col md:flex-row">
 
-  <!-- Image -->
+ 
   <div class="md:w-2/5">
     <img src="/public/img/our philosophy.png" class="w-full">
   </div>
 
-  <!-- Text -->
   <div class="md:w-3/5 bg-[#1a0f0a] text-white flex items-center">
     <div class="p-6">
 
@@ -236,7 +236,7 @@
 
     <div class="flex items-center">
       <h2 class="text-5xl font-mono mr-4 text-black">
-        Opening <span class="italic">Hours</span>
+        Opening <span class="italic font-cormorant">Hours</span>
       </h2>
 <div>
 <span class="text-gray-700 bg-gray-700  z-50">
@@ -295,43 +295,34 @@
 
 
 <!-- FOOTER -->
-<div class="bg-[#1a0f0a] text-amber-200  p-8">
-
-  <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-8">
-
-    <div class="md:w-1/3">
-      <h3 class="mb-2 text-3xl font-mono">Ember & Oak</h3>
-      <p class="text-sm text-gray-400">
-        A modern grill house in the heart of Victoria Island, Lagos.
-      </p>
+<footer class="py-16 px-6" style="background-color: #1a1510;">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+      <div class="">
+        <h3 class="font-serif-display text-white text-2xl mb-3 ">
+          Oaks Restaurant
+        </h3>
+        <p class="text-xs leading-relaxed" style="color: #888;">
+          A modern grill house in the heart of Victoria Island, celebrating bold wood-fired Nigerian cuisine since 2026.
+        </p>
+      </div>
+      <div>
+        <p class="section-label mb-4" style="color: #888;">Pages</p>
+        <ul class="space-y-2 text-sm" style="color: #ccc;">
+          <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+          <li><a href="menu.html" class="hover:text-white transition">Menu</a></li>
+          <li><a href="about.html" class="hover:text-white transition">About</a></li>
+          <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="section-label mb-4" style="color: #888;">Contact</p>
+        <p class="text-sm mb-1" style="color: #ccc;">14 Adeola Odeku Street</p>
+        <p class="text-sm mb-3" style="color: #ccc;">Victoria Island, Lagos</p>
+        <p class="text-sm mb-1" style="color: #ccc;">+234 801 000 0000</p>
+        <p class="text-sm" style="color: #ccc;">hello@emberandoak.ng</p>
+      </div>
     </div>
-
-    <div class="md:w-1/3">
-      <p class="text-xs text-gray-400 mb-2">PAGES</p>
-      <p class="text-sm">Home</p>
-      <p class="text-sm">Menu</p>
-      <p class="text-sm">About</p>
-      <p class="text-sm">Contact</p>
-    </div>
-
-    <div class="md:w-1/3">
-      <p class="text-xs text-gray-400 mb-2">CONTACT</p>
-      <p class="text-sm">
-        14 Adeola Odeku Street<br>
-        Victoria Island, Lagos<br><br>
-        +234 801 234 5678<br>
-        hello@emberandoak.ng
-      </p>
-    </div>
-
-  </div>
-
-  <div class="mt-8 border-t border-gray-700 pt-4 text-center text-xs text-gray-400">
-    © 2026 Ember & Oak. All rights reserved.
-  </div>
-
-</div>
-
+  </footer>
 
 </body>
 </html>   
