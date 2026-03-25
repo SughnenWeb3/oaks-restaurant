@@ -4,37 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="./output.css" rel="stylesheet">
   <style>
-    :root {
-      --cream: #f5f0e8;
-      --dark: #1a1510;
-      --terracotta: #a0522d;
-      --gold: #c9a96e;
-    }
-
-    body {
-      font-family: 'Jost', sans-serif;
-      background-color: var(--cream);
-      color: var(--dark);
-    }
-
-    .font-serif-display {
-      font-family: 'Playfair Display', serif;
-    }
-
-    .font-cormorant {
-      font-family: 'Cormorant Garamond', serif;
-    }
-
-    .section-label {
-      font-size: 0.7rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--terracotta);
-    }
-
     .team-card img {
       transition: transform 0.4s ease;
     }
@@ -43,10 +14,10 @@
     }
   </style>
 </head>
-<body>
+<body class="font-jost bg-[#f5f0e8] text-[#1a1510]">
 
-  <section class="text-center py-20 px-6" style="background-color: var(--dark);">
-    <p class="font-cormorant italic mb-4" style="color: var(--gold); font-size: 0.9rem; letter-spacing: 0.25em;">Our Story</p>
+  <section class="text-center py-20 px-6" style="background-color: #1a1510;">
+    <p class="font-cormorant italic mb-4" style="color: #c9a96e; font-size: 0.9rem; letter-spacing: 0.25em;">Our Story</p>
     <h1 class="font-serif-display text-white text-5xl md:text-6xl font-semibold mb-5">About Us</h1>
     <p class="font-cormorant italic text-lg" style="color: #b0a898;">Born from fire. Built on heritage.</p>
   </section>
@@ -75,14 +46,14 @@
       <h2 class="font-serif-display text-4xl font-semibold leading-snug mb-4">
         A Restaurant Born from <em>Necessity &amp; Love</em>
       </h2>
-      <div style="width: 40px; height: 2px; background: var(--terracotta); margin-bottom: 1.5rem;"></div>
+      <div style="width: 40px; height: 2px; background: #a0522d; margin-bottom: 1.5rem;"></div>
       <p class="text-sm leading-relaxed mb-4" style="color: #4a4035;">
         Ember &amp; Oak was born in 2020 from a simple but powerful idea: that Nigerian cuisine deserved a stage worthy of its complexity. Chef Nnamdi Okonkwo, raised between his grandmother's compound kitchen in Awka and the fine dining restaurants of London, returned home with a mission.
       </p>
       <p class="text-sm leading-relaxed mb-8" style="color: #4a4035;">
         "I was tired of watching our food be treated as an afterthought," he says. "Egusi deserves the same reverence as bouillabaisse. Suya has the same depth as any great barbecue tradition in the world."
       </p>
-      <a href="#" class="inline-block px-8 py-3 text-white text-xs tracking-widest uppercase" style="background: var(--terracotta);">
+      <a href="#" class="inline-block px-8 py-3 text-white text-xs tracking-widest uppercase" style="background: #a0522d;">
         Reserve a Table
       </a>
     </div>
@@ -94,7 +65,7 @@
       <h2 class="font-serif-display text-4xl font-semibold mb-2">Meet Our <em>Team</em></h2>
 
       <div style="width: 100%; height: 1px; background: #ddd; margin: 1.5rem 0 2.5rem; position: relative;">
-        <span style="width: 6px; height: 6px; background: var(--terracotta); border-radius: 50%; position: absolute; left: 50%; top: -3px; transform: translateX(-50%);"></span>
+        <span style="width: 6px; height: 6px; background: #a0522d; border-radius: 50%; position: absolute; left: 50%; top: -3px; transform: translateX(-50%);"></span>
       </div>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -157,12 +128,12 @@
     <h2 class="font-serif-display text-4xl font-semibold mb-2">Our <em>Values</em></h2>
 
     <div style="width: 100%; height: 1px; background: #ddd; margin: 1.5rem 0 2.5rem; position: relative;">
-      <span style="width: 6px; height: 6px; background: var(--terracotta); border-radius: 50%; position: absolute; left: 50%; top: -3px; transform: translateX(-50%);"></span>
+      <span style="width: 6px; height: 6px; background: #a0522d; border-radius: 50%; position: absolute; left: 50%; top: -3px; transform: translateX(-50%);"></span>
     </div>
 
     <div class="grid md:grid-cols-2 border border-gray-200">
       <div class="p-10 border-b border-r border-gray-200">
-        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: #a0522d;">
           <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
             <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
           </svg>
@@ -172,7 +143,7 @@
       </div>
 
       <div class="p-10 border-b border-gray-200">
-        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: #a0522d;">
           <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
           </svg>
@@ -182,7 +153,7 @@
       </div>
 
       <div class="p-10 border-r border-gray-200">
-        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: #a0522d;">
           <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
             <circle cx="12" cy="12" r="10"/>
             <path d="M12 6v6l4 2"/>
@@ -193,7 +164,7 @@
       </div>
 
       <div class="p-10">
-        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: var(--terracotta);">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-4 border" style="border-color: #a0522d;">
           <svg width="18" height="18" fill="none" stroke="#a0522d" stroke-width="1.5" viewBox="0 0 24 24">
             <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
             <circle cx="9" cy="7" r="4"/>
@@ -206,11 +177,11 @@
     </div>
   </section>
 
-  <footer class="py-16 px-6" style="background-color: var(--dark);">
+  <footer class="py-16 px-6" style="background-color: #1a1510;">
     <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
       <div>
         <h3 class="font-serif-display text-white text-2xl mb-3">
-          Ember <span style="color: var(--terracotta);">&amp;</span> Oak
+          Ember <span style="color: #a0522d;">&amp;</span> Oak
         </h3>
         <p class="text-xs leading-relaxed" style="color: #888;">
           A modern grill house in the heart of Victoria Island, celebrating bold wood-fired Nigerian cuisine since 2018.
