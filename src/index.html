@@ -3,11 +3,335 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  <link href="/src/output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+
+
+<!-- HERO-SECTION -->
+<body class="text-white z-0">
+  <header class="bg-white w-full h-16 text-center fixed z-50">
+    <nav>
+      <div class="flex justify-between">
+
+        <div class="text-gray-400 ml-16 mt-3.5">
+          <a class="ml-4" href="/">HOME</a>
+          <a class="ml-4" href="/">MENU</a>
+          <a class="ml-4" href="/">ABOUT</a>
+          <a class="ml-4" href="/">CONTACT</a>
+        </div>
+
+        <div class="flex-row mt-3.5 text-black">
+          <h2 class="text-4xl font-mono">Ember & Oak</h2>
+        </div>
+
+        <div class="mt-2.5">
+          <button class=" bg-black w-48 text-white outline-solid outline-2 mr-16 outline-blue-800 h-10">RESERVE A TABLE</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div>
+   <img src="/public/img/Screenshot from 2026-03-24 19-53-47.png" class="w-full " alt="">
+   <div class="ml-10">
+    <p class="text-1xl relative text-amber-200   bottom-80  font-sans">EST ,2026 , VICTORIA ISLAND LAGOS</p>
+    <br>
+    <p class="text-5xl relative bottom-80  font-mono">Where Fire</p>
+    <p class="text-6xl italic  relative bottom-80 text-amber-200">Meets Flavour</p>
+    <br>
+
+    <div class="flex flex-row gap-4">
+      <div>
+         <button class="bg-amber-700 opacity-85 w-40 h-10 relative bottom-72">EXPLORE MENU</button>
+      </div>
+      <div>
+          <button class="bg-none w-40 h-10 relative bottom-72 outline-2 outline-gray-400">BOOK A TABLE</button>
+      </div>
+     
+
+    </div>
+   </div>
+
+
+  </div>
+
+  <div class="flex  flex-row h-32 relative bottom-56">
+    <div class="bg-yellow-950 w-full outline-2 outline-zinc-400 flex justify-center ">
+      <p class="mt-6">
+        <span class="text-5xl ml-5">12<span class="relative bottom-2">+</span></span>
+        <br>
+        <span class="font-bold">YEARS OF CRAFT</span>
+        
+      </p>
+
+    </div>
+    <div class="bg-yellow-950 w-full outline-2 outline-zinc-400 flex justify-center ">
+      <p class="mt-6">
+        <span class="text-5xl ml-8">4<span class="relative bottom-1">0</span><span class="relative bottom-2">+</span></span>
+        <br>
+        <span class="font-bold">SIGNATURE DISHES</span>
+        
+      </p>
+
+    </div>
+    <div class="bg-yellow-950 w-full outline-2 outline-zinc-400 flex justify-center ">
+      <p class="mt-6">
+        <span class="text-5xl ml-9">3</span>
+        <br>
+        <span  class="font-bold">CHEF AWARD</span>
+      </p>
+
+    </div>
+    <div class="bg-yellow-950 w-full outline-2 outline-zinc-400 flex justify-center ">
+      <p class="mt-6">
+        <span class="text-5xl ml-9">9<span class="relative bottom-1.5">8</span><span class="relative bottom-1.5">%</span></span>
+        <br>
+        <span class="font-bold">GUEST SATISFACTION</span>
+        
+      </p>
+
+    </div>
+  </div>
+
+
+  <!-- FROM OUR KITCHEN -->
+
+  
+  <div class="ml-24 mr-24">
+    <P class="text-amber-700 font-bold">CHEF'S SIGNATURES</P>
+    <br>
+    <h2 class="text-5xl font-mono text-black">From Our <span class="italic">Kitchen</span></h2>
+    <br>
+    <span class="text-gray-700 bg-gray-700 ">
+      <hr>
+    </span>
+    <br><br>
+  </div>
+  
+
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <div class="border border-gray-200 rounded-md overflow-hidden bg-white ">
+      
+      <div class="relative">
+        <img src="/public/img/1of three.png" class="w-96 h-52 object-cover" />
+        <span class="absolute top-3 left-3 bg-black text-white text-xs px-2 py-1 tracking-wide">
+          SIGNATURE
+        </span>
+      </div>
+
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-medium text-gray-800">
+            Suya Lamb Rack
+          </h3>
+          <span class="text-sm text-gray-500">
+            ₦14,500
+          </span>
+        </div>
+
+        <p class="text-sm text-gray-500 leading-relaxed">
+          Slow-roasted lamb marinated in house suya spice, finished over live oak coals. Served with roasted plantain.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="border border-gray-200 rounded-md overflow-hidden bg-white ">
+      
+      <div class="relative">
+        <img src="/public/img/2 of three.png" class="w-96 h-52 object-cover" />
+        <span class="absolute top-3 left-3 bg-black text-white text-xs px-2 py-1 tracking-wide">
+          POPULAR
+        </span>
+      </div>
+
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-medium text-gray-800">
+            Jollof Risotto Tacos
+          </h3>
+          <span class="text-sm text-gray-500">
+            ₦9,800
+          </span>
+        </div>
+
+        <p class="text-sm text-gray-500 leading-relaxed">
+          Creamy jollof-style risotto stuffed into soft tacos with sautéed peppers and onions.
+        </p>
+      </div>
+
+    </div>
+
+    
+    <div class="border border-gray-200 rounded-md overflow-hidden bg-white ">
+      
+      <div class="relative">
+        <img src="/public/img/3 of three.png" class="w-96 h-52 object-cover" />
+      </div>
+
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-2">
+          <h3 class="text-lg font-medium text-gray-800">
+            Grilled Tilapia
+          </h3>
+          <span class="text-sm text-gray-500">
+            ₦11,200
+          </span>
+        </div>
+
+        <p class="text-sm text-gray-500 leading-relaxed">
+          Whole tilapia grilled over open flame, served with sautéed pineapple and seasonal vegetables.
+        </p>
+      </div>
+
+    </div>
+
+  </div><br><br><br>
+
+<!-- OUR PHILOSOPHY -->
+<section class="flex flex-col md:flex-row">
+
+  <!-- Image -->
+  <div class="md:w-2/5">
+    <img src="/public/img/our philosophy.png" class="w-full">
+  </div>
+
+  <!-- Text -->
+  <div class="md:w-3/5 bg-[#1a0f0a] text-white flex items-center">
+    <div class="p-6">
+
+      <p class="text-xs text-gray-400 mb-2">
+        OUR PHILOSOPHY
+      </p>
+
+      <h2 class="text-2xl mb-3">
+        Rooted in <i>Tradition</i>,<br>
+        Bold in Spirit
+      </h2>
+
+      <p class="text-sm text-gray-300 mb-4">
+        Every dish begins with a question. We source locally and cook with fire.
+      </p>
+
+      <button class="border px-4 py-1 text-sm">
+        MEET OUR TEAM
+      </button>
+
+    </div>
+  </div>
+
+</section>
+
+
+<br><br>
+
+<!-- WHEN TO VISIT -->
+<div class="max-w-4xl mx-auto">
+
+  <div class="flex flex-col mb-6">
+    <p class="font-bold  text-amber-800 uppercase mb-2">
+      WHEN TO VISIT
+    </p>
+
+    <div class="flex items-center">
+      <h2 class="text-5xl font-mono mr-4 text-black">
+        Opening <span class="italic">Hours</span>
+      </h2>
+<div>
+<span class="text-gray-700 bg-gray-700  z-50">
+      <hr>
+    </span>
+</div>
+   
+    </div>
+  </div>
+
+  <div class="flex justify-around ">
+
+    <div class="p-6 outline-2 outline-zinc-400   md:w-1/3 text-center">
+      <p class="font-bold text-amber-800 mb-2">MONDAY – THURSDAY</p>
+      <h3 class="text-3xl mb-1 text-black">12pm – 10pm</h3>
+      <p class="text-sm text-gray-500">Lunch & Dinner</p>
+    </div>
+
+    <div class="p-6 outline-2 outline-zinc-400  md:w-2/5 text-center">
+      <p class="font-bold text-amber-800 mb-2">FRIDAY – SATURDAY</p>
+      <h3 class="text-3xl mb-1 text-black">11am – 11pm</h3>
+      <p class="text-sm text-gray-500">Extended Hours</p>
+    </div>
+
+    <div class="p-6 md:w-2/5 outline-2 outline-zinc-400 text-center">
+      <p class="font-bold text-amber-800  mb-2">SUNDAY</p>
+      <h3 class="text-3xl mb-1 text-black">1pm – 9pm</h3>
+      <p class="text-sm text-gray-500">Brunch & Dinner</p>
+    </div>
+
+  </div>
+
+  <p class="text-xs text-gray-400 text-center mt-4">
+    Kitchen closes 45 mins before closing
+  </p>
+
+</div>
+
+
+<br><br>
+
+
+<div class="bg-[#b45a2b] text-white text-center p-10">
+
+  <p class="text-xs mb-2">READY TO DINE?</p>
+
+  <h2 class="text-2xl mb-4">
+    Reserve Your Table Tonight
+  </h2>
+
+  <button class="border px-4 py-1 text-sm">
+    MAKE A RESERVATION
+  </button>
+
+</div>
+
+
+<!-- FOOTER -->
+<div class="bg-[#1a0f0a] text-amber-200  p-8">
+
+  <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-8">
+
+    <div class="md:w-1/3">
+      <h3 class="mb-2 text-3xl font-mono">Ember & Oak</h3>
+      <p class="text-sm text-gray-400">
+        A modern grill house in the heart of Victoria Island, Lagos.
+      </p>
+    </div>
+
+    <div class="md:w-1/3">
+      <p class="text-xs text-gray-400 mb-2">PAGES</p>
+      <p class="text-sm">Home</p>
+      <p class="text-sm">Menu</p>
+      <p class="text-sm">About</p>
+      <p class="text-sm">Contact</p>
+    </div>
+
+    <div class="md:w-1/3">
+      <p class="text-xs text-gray-400 mb-2">CONTACT</p>
+      <p class="text-sm">
+        14 Adeola Odeku Street<br>
+        Victoria Island, Lagos<br><br>
+        +234 801 234 5678<br>
+        hello@emberandoak.ng
+      </p>
+    </div>
+
+  </div>
+
+  <div class="mt-8 border-t border-gray-700 pt-4 text-center text-xs text-gray-400">
+    © 2026 Ember & Oak. All rights reserved.
+  </div>
+
+</div>
+
+
 </body>
 </html>   
